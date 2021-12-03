@@ -61,7 +61,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
-
 I learned how to combine flexbox and grid and use different aspects of positioning.  
 
 ### Continued development
