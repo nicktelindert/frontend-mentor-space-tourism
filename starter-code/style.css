@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Jura:wght@300&family=Lekton:wght@300&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #fff;
+  font-family: 'Lekton', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Cinzel', sans-serif;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Lekton', sans-serif;
+  font-weight: 300;
+}
+
+
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #FFF;
+  width: 12rem;
+  height: 12rem;
+  color: #000;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+div.center {
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-family: 'Lekton', sans-serif;
+  font-weight: 300;
+}
+
+.content p {
+  width: 23.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 300;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  display: grid;
+	grid-template-rows: 1fr 5fr;
+  grid-row-gap: 25rem;
+}
+
+.menu-container ul {
+  height: 55%;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 1px;
+}
+
+ul li {
+  height: 100%;
+  width: max-content;
+  margin-left: 3.5rem;
+}
+
+strong {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+li.active {
+  border-bottom: 2px solid #fff;
+}
+
+.menu-container {
+  background: linear-gradient(to right, rgba(0,0,0, 0.15) , rgba(255, 255,255, 0.2), rgba(0,0,0, 0.1));
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.menu {
+  position: absolute;
+  width: 750px;
+  height: 80px;
+  right: 0;
+  top: 5rem;
+}
+
+.top-content {
+  display: grid;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 2fr;
+}
+
+.bottom-content {
+  display: flex;
+  gap: 35rem;
+  justify-content: center;
+}
+
+.line {
+  border-bottom: 1px #464646 solid;
+  width: 20rem;
+  position: absolute; 
+  left: 30rem;
+  opacity: 0.3;
+  
+}
