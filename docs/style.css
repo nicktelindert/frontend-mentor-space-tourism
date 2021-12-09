@@ -91,7 +91,7 @@ span.grey-font {
 
 div.center {
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   display: flex;
 }
 
