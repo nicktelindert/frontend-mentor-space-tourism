@@ -217,7 +217,7 @@ li.active {
   width: 28rem;
 }
 
-.bottom-content .content p::after {
+.bottom-content .pull-left p::after {
   content: "";
   display: block;
   border-bottom: 1px solid #434343;
