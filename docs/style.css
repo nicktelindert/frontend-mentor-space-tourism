@@ -55,6 +55,7 @@ h5 {
 
 .white-font h5 {
   color: #FFF;
+  margin-bottom: 50px;
 }
 
 .white-font {
@@ -131,8 +132,12 @@ a {
   background-position: right;
   background-repeat: no-repeat;
   display: grid;
-	grid-template-rows: 1fr 5fr;
-  grid-row-gap: 8rem;
+	grid-template-rows: 120px 1fr;
+}
+
+div.pull-to-top {
+  justify-content: flex-start;
+  padding-top: 80px;
 }
 
 .bg-space {
